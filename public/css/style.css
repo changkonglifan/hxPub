@@ -7,6 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 body{
 	margin:0;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 62.5%;
 }
 /*-header--*/
 .header {
@@ -93,19 +94,19 @@ span.menu {
 	width:100%;
 }
 /*--method-grids--*/
-.method{
+.news{
 	padding: 8em 0;
 }
-.method-grids{
+.news-grids{
 	text-align: center;
 }
-.method-grids h4{
+.news-grids h4{
 	color: #333333;
 	margin: 2em 0 .5em 0;
 	font-weight: 600;
 	font-size: 20px;
 }
-.method-grids p{
+.news-grids p{
 	color: #7b7b7b;
 	font-weight: 300;
 	font-size: 15px;
@@ -114,7 +115,7 @@ span.menu {
 	line-height: 1.7;
 }
 /*--method-text--*/
-.method-text {
+.news-text {
 	background: #f0f5f9;
 	padding: 8em 0 0 0;
 	position:relative;
@@ -122,7 +123,7 @@ span.menu {
 	box-shadow: 1px -1px rgba(223, 221, 221, 0.63);
 	border-radius: 2px;
 }
-.method-text p{
+.news-text p{
 	color: #b0b6bb;
 	font-weight: 500;
 	font-size: 15px;
@@ -132,19 +133,19 @@ span.menu {
 	text-align: center;
 	letter-spacing: 0.5px;
 }
-.method-text p:before{
+.news-text p:before{
 	content:url(../img/icon1.png)no-repeat 0px 0px;
 	position:absolute;
 	top: 29%;
 	left: 20%;
 }
-.method-text p:after{
+.news-text p:after{
 	content:url(../img/icon2.png)no-repeat 0px 0px;
 	position:absolute;
 	bottom: 34%;
 	right: 21%;
 }
-.method-text h3 {
+.news-text h3 {
 	text-align: center;
 	margin: 3em 0 1.5em 0;
 	color: #72787c;
@@ -152,14 +153,14 @@ span.menu {
 	font-weight: 600;
 	font-family: sans-serif;
 }
-.method-text h3 span {
+.news-text h3 span {
 	color: #b0b6bb;
 	font-size: 20px;
 	font-weight: 300;
 	letter-spacing: 1px;
 	margin-left: 8px;
 }
-.method-text h3:before{
+.news-text h3:before{
 	position: absolute;
 	bottom: 27%;
 	left: 44%;
@@ -918,13 +919,13 @@ img.zoom-img:hover {
 .banner-title h4 {
 	margin: 0 0 .5em;
 }
-.method {
+.news {
 	padding: 6em 0;
 }
-.method-grids p {
+.news-grids p {
 	width: 80%;
 }
-.method-text {
+.news-text {
 	padding: 6em 0 0 0;
 }
 .cases {
@@ -948,21 +949,21 @@ img.zoom-img:hover {
 	overflow: hidden;
 	height: 34px;
 }
-.method-text {
+.news-text {
 	padding: 5em 0 0 0;
 }
-.method-text p {
+.news-text p {
 	width: 90%;
 }
-.method-text p:before {
+.news-text p:before {
 	top: 18%;
 	left: 3.5%;
 }
-.method-text p:after {
+.news-text p:after {
 	right: 4.5%;
 	bottom: 37%;
 }
-.method-text h3:before {
+.news-text h3:before {
 	bottom: 31%;
 }
 .footer-grids-info:nth-child(3) {
@@ -1112,10 +1113,10 @@ span.menu {
 	width: 16%;
 	text-align: left;
 }
-.method {
-	padding: 5em 0;
+.news {
+	padding: 0em 0;
 }
-.method-grids {
+.news-grids {
 	float: left;
 	width: 33.33%;
 }
@@ -1123,26 +1124,26 @@ span.menu {
 	width: 100%;
 	font-size: 14px;
 }
-.method-grids h4 {
+.news-grids h4 {
 	margin: 1.5em 0 .5em 0;
 }
-.method-text p{
+.news-text p{
 	width: 92%;
 	font-size: 14px;
 }
-.method-text p:before{
+.news-text p:before{
 	top: 20%;
 	left: 0%;
 }
-.method-text p:after{
+.news-text p:after{
 	right: 8.5%;
 	bottom: 24%;
 }
-.method-text h3{
+.news-text h3{
 	margin: 2em 0 1em 0;
 	font-size: 21px;
 }
-.method-text h3:before{
+.news-text h3:before{
 	bottom: 22%;
 }
 .cases{
@@ -1691,47 +1692,47 @@ span.menu {
 	width: 20%;
 	margin: 0;
 }
-.method {
-	padding: 2em 0;
+.news {
+	padding: 0em 0;
 }
-.method-grids {
+.news-grids {
 	width: 50%;
 }
-.method-grids img {
+.news-grids img {
 	width: 70%;
 }
-.method-grids h4 {
+.news-grids h4 {
 	margin: 1em 0 .5em 0;
 	font-size: 17px;
 }
-.method-grids:nth-child(1) {
+.news-grids:nth-child(1) {
 	padding-left:0;
 }
-.method-grids:nth-child(2) {
+.news-grids:nth-child(2) {
 	padding-left:0;
 }
-.method-grids:nth-child(3) {
+.news-grids:nth-child(3) {
 	display: none;
 }
-.method-grids p {
+.news-grids p {
 	height: 65px;
 }
-.method-text {
+.news-text {
 	padding: 2em 0 0 0;
 }
-.method-text p {
+.news-text p {
 	width: 82%;
 }
-.method-text p:before {
+.news-text p:before {
 	top: 8%;
 }
-.method-text p:after {
+.news-text p:after {
 	bottom: 23%;
 }
-.method-text h3 {
+.news-text h3 {
 	font-size: 16px;
 }
-.method-text h3:before {
+.news-text h3:before {
 	bottom: 26%;
 }
 .col-md-3 {
@@ -1760,7 +1761,7 @@ span.menu {
 	width: 100%;
 	padding: 0 0 1em 1em;
 }
-.method-text h3 span {
+.news-text h3 span {
 	font-size: 16px;
 }
 .cases h3 {
